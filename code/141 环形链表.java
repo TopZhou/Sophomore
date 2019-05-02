@@ -22,7 +22,7 @@ public class Solution {
         ListNode slow = head;
         ListNode fast = head.next;
         while(slow != fast){
-            if(fast == null || fast.next == null)
+            if(fast == null || fast.next == null)   //需要在while内再次判断下一接点是否为空，由于fast指针快于slow，因此只需要判断fast指针
                 return false;
             slow = slow.next;
             fast = fast.next.next;
