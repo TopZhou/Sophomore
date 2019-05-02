@@ -1,4 +1,4 @@
-/*
+1/*
  * @lc app=leetcode.cn id=141 lang=java
  *
  * [141] 环形链表
